@@ -5,15 +5,15 @@ import { useHistory } from "react-router-dom";
  function Footer() {
   return (
     <>
-    <div class="container-fluid footsection ">
-    <div class="main-footer-section">
-      <div class="row  pt-5 pb-5 ">
-        <div class="col-lg-4 col-md-4 col-sm-6">
+    <div className="container-fluid footsection ">
+    <div className="main-footer-section">
+      <div className="row  pt-5 pb-5 ">
+        <div className="col-lg-4 col-md-4 col-sm-6">
 
-          <div class="footdata">
+          <div className="footdata">
             <ul>
               <li>
-                <div class="foothead mb-3">
+                <div className="foothead mb-3">
                   BEAUT INDIA
                 </div>
               </li>
@@ -28,12 +28,12 @@ import { useHistory } from "react-router-dom";
           </div>
 
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-6">
+        <div className="col-lg-4 col-md-4 col-sm-6">
 
-          <div class="footdata">
+          <div className="footdata">
             <ul>
               <li>
-                <div class="foothead mb-3">
+                <div className="foothead mb-3">
                   SHOP BY
                 </div>
               </li>
@@ -46,12 +46,12 @@ import { useHistory } from "react-router-dom";
             </ul>
           </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-12">
+        <div className="col-lg-4 col-md-4 col-sm-12">
 
-          <div class="footdata">
-            <ul class="quick-links">
+          <div className="footdata">
+            <ul className="quick-links">
               <li>
-                <div class="foothead mb-3">
+                <div className="foothead mb-3">
                   QUICK LINKS
                 </div>
               </li>
@@ -62,14 +62,14 @@ import { useHistory } from "react-router-dom";
           </div>
         </div>
       </div>
-      <div class="child-foot">
-        <p class="mt-4">Sign up for our Newsletter</p>
-        <div class="foot-email-block mt-4">
-          <label class="f-email">
-            <input type="email" class="foot-email" placeholder="Your email address"/>
+      <div className="child-foot">
+        <p className="mt-4">Sign up for our Newsletter</p>
+        <div className="foot-email-block mt-4">
+          <label className="f-email">
+            <input type="email" className="foot-email" placeholder="Your email address"/>
           </label>
         </div>
-        <div class="cards-img mt-4">
+        <div className="cards-img mt-4">
         <img src={process.env.PUBLIC_URL+"pictures/Visa.svg"} alt="" />
           <img src={process.env.PUBLIC_URL+"pictures/Mastercard.svg"} alt="" />
           <img src={process.env.PUBLIC_URL+"pictures/Netbanking.svg"} alt="" />

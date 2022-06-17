@@ -9,56 +9,56 @@ class Checkout extends Component {
     return (
       <>
         <Header />
-        <div class="container-fluid">
-  <div class="main-container-checkout">
-    <div class="login-section">
-      <div class="row ">
-        <div class="login-form-column ">
+        <div className="container-fluid">
+  <div className="main-container-checkout">
+    <div className="login-section">
+      <div className="row ">
+        <div className="login-form-column ">
           <h2>Sign up</h2>
-          <form class="checkout-form">
+          <form className="checkout-form">
 
-            <div class="checkout-margin">
-              <div class="input-icons-sign">
-                <i class="name-icon">
+            <div className="checkout-margin">
+              <div className="input-icons-sign">
+                <i className="name-icon">
                 </i>
-                <input type="text" class=" fc-sign checkbr " id="exampleInputName" aria-describedby="emailHelp"
+                <input type="text" className=" fc-sign checkbr " id="exampleInputName" aria-describedby="emailHelp"
                   placeholder="First Name" required/>  
 
               </div>
-              <div class="input-icons-sign">
-                <i class="name-icon">
+              <div className="input-icons-sign">
+                <i className="name-icon">
                 </i>
-                <input type="text" class=" fc-sign checkbr" id="exampleInputName" aria-describedby="emailHelp"
+                <input type="text" className=" fc-sign checkbr" id="exampleInputName" aria-describedby="emailHelp"
                   placeholder="Last Name" required/>
 
               </div>
             </div>
 
-            <div class="checkout-margin ">
-              <div class="input-icons">
-                <i class="address-book-icon">
+            <div className="checkout-margin ">
+              <div className="input-icons">
+                <i className="address-book-icon">
                 </i>
-                <input type="text" class=" fc-l checkbr" id="exampleInputName" aria-describedby="emailHelp"
+                <input type="text" className=" fc-l checkbr" id="exampleInputName" aria-describedby="emailHelp"
                   placeholder="Address Line 1" required/>
 
               </div>
             </div>
-            <div class="checkout-margin ">
-              <div class="input-icons">
-                <i class="address-book-icon">
+            <div className="checkout-margin ">
+              <div className="input-icons">
+                <i className="address-book-icon">
                 </i>
-                <input type="text" class=" fc-l checkbr" id="exampleInputName" aria-describedby="emailHelp"
+                <input type="text" className=" fc-l checkbr" id="exampleInputName" aria-describedby="emailHelp"
                   placeholder="Address Line 2" required/>
 
               </div>
             </div>
-            <div class="checkout-margin">
-              <div class="input-icons-checkout">
-                <i class="gender-icon">
+            <div className="checkout-margin">
+              <div className="input-icons-checkout">
+                <i className="gender-icon">
                 </i>
                 
-                  <div class="form-group">
-                    <select  class=" fc-checkout checkbr"  id="exampleFormControlSelect1" required>
+                  <div className="form-group">
+                    <select  className=" fc-checkout checkbr"  id="exampleFormControlSelect1" required>
                       <option>Gender</option>
                       <option>Male</option>
                       <option>Female</option>
@@ -68,56 +68,56 @@ class Checkout extends Component {
 
               </div>
               
-              <div class="input-icons-checkout">
-                <i class="phone-icon">
+              <div className="input-icons-checkout">
+                <i className="phone-icon">
                 </i>
-                <input type="number" class=" fc-checkout checkbr" id="exampleInputName" aria-describedby="emailHelp"
+                <input type="number" className=" fc-checkout checkbr" id="exampleInputName" aria-describedby="emailHelp"
                   placeholder="Phone number" required/>
 
               </div>
 
-              <div class="input-icons-checkout">
-                <i class="otp-icon">
+              <div className="input-icons-checkout">
+                <i className="otp-icon">
                 </i>
-                <input type="email" class=" fc-checkout checkbr " id="exampleInputName" aria-describedby="emailHelp"
+                <input type="email" className=" fc-checkout checkbr " id="exampleInputName" aria-describedby="emailHelp"
                   placeholder="E-mail" required/>
 
               </div>
             </div>
-            <div class="checkout-margin">
-              <div class="input-icons-checkout">
-                <i class="postal-icon">
+            <div className="checkout-margin">
+              <div className="input-icons-checkout">
+                <i className="postal-icon">
                 </i>
-                <input type="number" class=" fc-checkout checkbr" id="exampleInputName" aria-describedby="emailHelp"
+                <input type="number" className=" fc-checkout checkbr" id="exampleInputName" aria-describedby="emailHelp"
                   placeholder="Pincode" required/>
 
               </div>
 
-              <div class="input-icons-checkout">
-                <i class="map-icon">
+              <div className="input-icons-checkout">
+                <i className="map-icon">
                 </i>
-                <input type="text" class=" fc-checkout checkbr" id="exampleInputName" aria-describedby="emailHelp"
+                <input type="text" className=" fc-checkout checkbr" id="exampleInputName" aria-describedby="emailHelp"
                   placeholder="City" required/>
 
               </div>
               
-              <div class="input-icons-checkout">
-                <i class="city-hall-icon">
+              <div className="input-icons-checkout">
+                <i className="city-hall-icon">
                 </i>
-                <input type="text" class=" fc-checkout checkbr" id="exampleInputName" aria-describedby="emailHelp"
+                <input type="text" className=" fc-checkout checkbr" id="exampleInputName" aria-describedby="emailHelp"
                   placeholder="State" required/>
 
               </div>
             </div>
 
-            <div class="submit-section">
-              <span><div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                <label class="form-check-label" for="flexCheckDefault">
+            <div className="submit-section">
+              <span><div className="form-check">
+                <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                <label className="form-check-label" for="flexCheckDefault">
                   Ship to a different address
                 </label>
               </div></span>
-              <span class="sa-add"> <img src="/pictures/awesome-save.svg" width="15%" alt=""/> Save Address</span>
+              <span className="sa-add"> <img src="/pictures/awesome-save.svg" width="15%" alt=""/> Save Address</span>
             </div>
 
           </form>
@@ -128,22 +128,22 @@ class Checkout extends Component {
 
  
 
-  <div class="mb-2">
-    <div class="new2"></div>
+  <div className="mb-2">
+    <div className="new2"></div>
   </div>
   
-  <div class="address-section">
+  <div className="address-section">
     <span><h3>Saved Address</h3></span>
     <span> <img src="/pictures/Icon ionic-ios-add.svg" alt=""/> Add new address</span>
   </div>
 
-  <div class="address-edit-section ">
-    <div class="card-address mt-4 mb-5">
-      <div class="card-address-edit">
+  <div className="address-edit-section ">
+    <div className="card-address mt-4 mb-5">
+      <div className="card-address-edit">
         <h5>Paras shah</h5>
         <img src="/pictures/Icon material-edit.svg" alt=""/>
       </div>
-      <div class="mt-3">
+      <div className="mt-3">
       <span>
         <h5>
         #23, Karwar Road House, <br/>
@@ -156,43 +156,43 @@ class Checkout extends Component {
     </div>
   </div>
 
-  <div class="mb-2">
-    <div class="new2"></div>
+  <div className="mb-2">
+    <div className="new2"></div>
   </div>
 
-  <div class="payment-optoin-section">
-    <div class="row pt-5 pb-5">
-      <div class="col-lg-8">
+  <div className="payment-optoin-section">
+    <div className="row pt-5 pb-5">
+      <div className="col-lg-8">
         <h2>Payment Option</h2>
-        <div class="choose-payment-mode mt-5 pe-5">
+        <div className="choose-payment-mode mt-5 pe-5">
           <ul>
-            <div class="radio-btn-section pe-3">
+            <div className="radio-btn-section pe-3">
             <li>Razor pay </li> 
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked/>
-              <label class="form-check-label" for="exampleRadios1">
+            <div className="form-check">
+              <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked/>
+              <label className="form-check-label" for="exampleRadios1">
                
               </label>
             </div>
             </div>
 
             <hr/>
-            <div class="radio-btn-section pe-3">
+            <div className="radio-btn-section pe-3">
             <li>Cash on delivery</li>
             
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2"/>
-              <label class="form-check-label" for="exampleRadios2">
+            <div className="form-check">
+              <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2"/>
+              <label className="form-check-label" for="exampleRadios2">
                
               </label>
             </div>
             </div>
             <hr/>
-            <div class="radio-btn-section pe-3">
+            <div className="radio-btn-section pe-3">
               <li>UPIs</li>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3"/>
-                <label class="form-check-label" for="exampleRadios3">
+              <div className="form-check">
+                <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3"/>
+                <label className="form-check-label" for="exampleRadios3">
               
                 </label>
               </div>
@@ -201,27 +201,27 @@ class Checkout extends Component {
           </ul>
         </div>
       </div>
-      <div class="col-lg-4">
-        <div class="total-section">
-          <h1 class="mb-5"> <u> Total</u></h1>
-          <div class="total-products">
-          <div class="product-price">
+      <div className="col-lg-4">
+        <div className="total-section">
+          <h1 className="mb-5"> <u> Total</u></h1>
+          <div className="total-products">
+          <div className="product-price">
           <h5>Playboy Endless Night</h5><span>1000</span>
           </div>
-          <div class="product-price">
+          <div className="product-price">
             <h5>Playboy Endless Night</h5><span>1000</span>
             </div>
-            <div class="product-price">
+            <div className="product-price">
               <h5>GST</h5><span>200</span>
               </div>
-              <div class="mb-2 mt-4">
-                <div class="new2"></div>
+              <div className="mb-2 mt-4">
+                <div className="new2"></div>
               </div>
-              <div class="product-price">
+              <div className="product-price">
                 <h5>Sub Total</h5><span>3000</span>
                 </div>
               </div>
-                <button class="payment-btn mt-5"> <Link to="/login"> Proceed to Payment</Link></button>
+                <button className="payment-btn mt-5"> <Link to="/login"> Proceed to Payment</Link></button>
         </div>
       </div>
     </div>
