@@ -8,9 +8,15 @@ import { useHistory } from "react-router-dom";
     <div className="container-fluid footsection ">
     <div className="main-footer-section">
       <div className="row  pt-5 pb-5 ">
-        <div className="col-lg-4 col-md-4 col-sm-6">
+        <div className="col-lg-6">
+        <div className='footer-logo-section mt-3'>
+        <img src={process.env.PUBLIC_URL+"pictures/beaute-india-footer.png"} alt="" />
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna </p>
+        </div>
 
-          <div className="footdata">
+        </div>
+        <div className="col-lg-4">
+        <div className="footdata">
             <ul>
               <li>
                 <div className="foothead mb-3">
@@ -26,10 +32,26 @@ import { useHistory } from "react-router-dom";
               <li>FAQs</li>
             </ul>
           </div>
-
+          <div className="child-foot">
+        <p className="mt-4">Sign up for our Newsletter</p>
+        <div className="foot-email-block mt-3">
+          <label className="f-email">
+            <input type="email" className="foot-email" placeholder="Your email address"/>
+          </label>
         </div>
-        <div className="col-lg-4 col-md-4 col-sm-6">
+        <div className="cards-img mt-3">
+        <img src={process.env.PUBLIC_URL+"pictures/Visa.png"} alt="" />
+          <img src={process.env.PUBLIC_URL+"pictures/Mastercard.png"} alt="" />
+          <img src={process.env.PUBLIC_URL+"pictures/Netbanking.png"} alt="" />
+          <img src={process.env.PUBLIC_URL+"pictures/Amazon Pay.png"} alt="" />
+          <img src={process.env.PUBLIC_URL+"pictures/UPI.png"} alt="" />
+        </div>
+      </div>
+          
+        </div>
+        <div className="col-lg-2">
 
+        
           <div className="footdata">
             <ul>
               <li>
@@ -45,38 +67,21 @@ import { useHistory } from "react-router-dom";
               <li>Luggage</li>
             </ul>
           </div>
-        </div>
-        <div className="col-lg-4 col-md-4 col-sm-12">
-
           <div className="footdata">
             <ul className="quick-links">
               <li>
-                <div className="foothead mb-3">
-                  QUICK LINKS
+                <div className="foothead mb-3 mt-5">
+                  QUICK LINKS:
                 </div>
               </li>
-              <li> <img src={process.env.PUBLIC_URL+"pictures/Facebook.svg"} alt="" /></li>
-              <li> <img src={process.env.PUBLIC_URL+"pictures/Instagram.svg"} alt="" /></li>
-              <li> <img src={process.env.PUBLIC_URL+"pictures/YouTube.svg"} alt="" /></li>
+              <img src={process.env.PUBLIC_URL+"pictures/fb-ft.png"} alt="" />&nbsp;&nbsp;&nbsp;
+              <img src={process.env.PUBLIC_URL+"pictures/wh-ft.png"} alt="" />&nbsp;&nbsp;
+              <img src={process.env.PUBLIC_URL+"pictures/insta-ft.png"} alt="" />
             </ul>
           </div>
         </div>
       </div>
-      <div className="child-foot">
-        <p className="mt-4">Sign up for our Newsletter</p>
-        <div className="foot-email-block mt-4">
-          <label className="f-email">
-            <input type="email" className="foot-email" placeholder="Your email address"/>
-          </label>
-        </div>
-        <div className="cards-img mt-4">
-        <img src={process.env.PUBLIC_URL+"pictures/Visa.svg"} alt="" />
-          <img src={process.env.PUBLIC_URL+"pictures/Mastercard.svg"} alt="" />
-          <img src={process.env.PUBLIC_URL+"pictures/Netbanking.svg"} alt="" />
-          <img src={process.env.PUBLIC_URL+"pictures/Amazon Pay.svg"} alt="" />
-          <img src={process.env.PUBLIC_URL+"pictures/UPI.svg"} alt="" />
-        </div>
-      </div>
+     
     </div>
   </div>
     </>

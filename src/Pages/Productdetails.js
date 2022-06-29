@@ -45,13 +45,13 @@ class Productdetails extends Component {
         </div>
       </div>
           <div className="add-to-cart-whishlist mt-5">
-            <button className="btn-1"> <Link to="/cart">Add to cart</Link></button>
+           <Link to="/cart" className="btn-1">Add to cart</Link>
             <button classNameName="btn-2">
             <img src={process.env.PUBLIC_URL+"pictures/noun-love-4726271.svg"} alt="" />
             </button>
           </div>
           <div className="buy-now-btn mt-4">
-          <button>  <Link to="/checkout">Buy it now</Link></button>
+          <Link to="/checkout" className='button'>Buy it now</Link>
           </div>
     
         </div>

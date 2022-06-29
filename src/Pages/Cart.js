@@ -20,38 +20,48 @@ class Cart extends Component {
                       <div className="col-lg-3 col-md-3 col-sm-4"><img src={process.env.PUBLIC_URL + "pictures/Rectangle 98.png"} alt="" />
                       </div>
                       <div className="col-lg-9 col-md-9 col-sm-8">
-                        <div className="head-price">
+                        <div className="head-price mt-3">
                           <h5>Playboy Endless Night</h5>
                           <h4>RS 1000</h4>
                         </div>
-                        <div className="cart-quantity mt-3">
-                          <h5>Quantity</h5>
-                          <div className="wrapper">
-                            <span className="minus">-</span>
-                            <span className="num">01</span>
-                            <span className="plus">+</span>
+                        <div className="qunt-main">
+                          <div className="quantity mt-4">
+                            <h6>Quantity</h6>
+                            <div className="wrapper">
+                              <span className="minus">-</span>
+                              <span className="num">01</span>
+                              <span className="plus">+</span>
+                            </div>
+
                           </div>
                         </div>
-                        <div><button className="rmv-btn mt-4">Remove</button></div>
+                        <div className='delete-img mt-4'>        
+                        <img src={process.env.PUBLIC_URL + "pictures/delete.png"}  alt="" />
+                        </div>
                       </div>
                     </div>
                     <div className="dashed-border"></div>
                     <div className="row cart-main">
                       <div className="col-lg-3 col-md-3 col-sm-4"><img src={process.env.PUBLIC_URL + "pictures/Rectangle 98.png"} alt="" /></div>
                       <div className="col-lg-9 col-md-9 col-sm-8">
-                        <div className="head-price">
+                        <div className="head-price mt-3">
                           <h5>Playboy Endless Night</h5>
                           <h4>RS 1000</h4>
                         </div>
-                        <div className="cart-quantity mt-3">
-                          <h5>Quantity</h5>
-                          <div className="wrapper">
-                            <span className="minus">-</span>
-                            <span className="num">01</span>
-                            <span className="plus">+</span>
+                        <div className="qunt-main">
+                          <div className="quantity mt-4">
+                            <h6>Quantity</h6>
+                            <div className="wrapper">
+                              <span className="minus">-</span>
+                              <span className="num">01</span>
+                              <span className="plus">+</span>
+                            </div>
+
                           </div>
                         </div>
-                        <div><button className="rmv-btn mt-4">Remove</button></div>
+                        <div className='delete-img mt-4'>        
+                        <img src={process.env.PUBLIC_URL + "pictures/delete.png"}  alt="" />
+                        </div>
                       </div>
                     </div>
                     <div className="dashed-border"></div>

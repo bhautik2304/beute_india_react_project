@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
     <>
               <div className="navhead">
       <div className="logoo">
-      <Link to="/"><h1> BEAUT INDIA</h1></Link>
+      <Link to="/"><img src={process.env.PUBLIC_URL+"pictures/header-logo.png"} alt="" /></Link>
       </div>
       <ul className="navhead-links" id="myDIV">
         <li>
@@ -19,7 +19,7 @@ import { Link } from "react-router-dom";
                 <div className="search_box">
                   <input type="text" className="input-search" placeholder="SEARCH" />
                   <div className="btn btn_common"><Link to="">
-                  <img src={process.env.PUBLIC_URL+"pictures/Group 1.svg"} className="search-img" alt="" />
+                  <img src={process.env.PUBLIC_URL+"pictures/search.svg"} className="search-img" alt="" />
                   </Link>
                   </div>
                 </div>
@@ -30,13 +30,13 @@ import { Link } from "react-router-dom";
         <li>
         
         <Link to="/productdetail">
-          <img src={process.env.PUBLIC_URL+"pictures/noun-love-4726271.svg"} className="heart-img" alt="" />
+          <img src={process.env.PUBLIC_URL+"pictures/whishlist.svg"} className="heart-img" alt="" />
          </Link>
           
         </li>
         <li>
         <Link to="/cart">
-          <img src={process.env.PUBLIC_URL+"pictures/Path 39.svg"} className="cart-img" alt="" />
+          <img src={process.env.PUBLIC_URL+"pictures/cart.svg"} className="cart-img" alt="" />
           </Link>
         </li>
         <li className="nav-item dropdown user">

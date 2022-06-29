@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function index() {
   return (
     <>
-      <div className='container-fluid'>
+      <div className='container-fluid bg'>
       <div className="login-container">
         <div className="row">
        <div className="col-lg-6">
@@ -15,7 +15,7 @@ function index() {
         <div className="login-form">  
         <form action="#">
           <h1>BEAUT INDIA</h1>
-          <h6>LOG IN</h6>
+          <h6 className='mb-3'>LOG IN</h6>
           <div className="form-group">
             <select name="company" className=" form-select form-co" id="company" >
               <option value="">Select your company</option>
