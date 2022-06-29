@@ -25,8 +25,7 @@ class Signup extends Component {
                 <input type="text" className=" fc-sign " id="exampleInputName" aria-describedby="emailHelp" placeholder="First Name" required/>
              
               </div>
-            {/* <!-- </div>
-            <div className="mb-4 "> --> */}
+           
               <div className="input-icons-sign">
                 <i className="name-icon">
                 </i>

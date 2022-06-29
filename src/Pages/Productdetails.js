@@ -32,7 +32,7 @@ class Productdetails extends Component {
         <div className="product-details">
           <h3>Playboy Endless Night</h3>
           <p className=" pt-3 pe-5">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
-          <h4 className="pb-3">RS. 849</h4>
+          <h4 className="pb-4 pt-4">RS. 849</h4>
         <div className="qunt-main">
           <div className="quantity">
           <h5>Quantity</h5>

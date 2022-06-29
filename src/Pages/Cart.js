@@ -12,7 +12,7 @@ class Cart extends Component {
         <div className="container-fluid">
           <div className="main-cart-section">
             <div className="container-fluid">
-              <h1 className="pt-4">Cart</h1>
+              <h1 className="pt-4 cart-heading ">Cart</h1>
               <div className="row mt-4 mb-5">
                 <div className="col-lg-8 ">
                   <div className="cart-section p-4">
@@ -94,7 +94,7 @@ class Cart extends Component {
                         <h5>Sub Total</h5><span>3000</span>
                       </div>
                     </div>
-                    <button className="payment-btn mt-5"> <Link to="/checkout">Proceed to Checkout</Link> </button>
+                    <Link to="/checkout" className="payment-btn mt-5" > Proceed to Payment</Link>
                   </div>
                 </div>
               </div>

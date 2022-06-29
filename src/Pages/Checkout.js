@@ -14,7 +14,7 @@ class Checkout extends Component {
     <div className="login-section">
       <div className="row ">
         <div className="login-form-column ">
-          <h2>Sign up</h2>
+          <h2>Delivery address</h2>
           <form className="checkout-form">
 
             <div className="checkout-margin">
@@ -221,7 +221,7 @@ class Checkout extends Component {
                 <h5>Sub Total</h5><span>3000</span>
                 </div>
               </div>
-                <button className="payment-btn mt-5"> <Link to="/login"> Proceed to Payment</Link></button>
+               <Link to="/login" className="payment-btn mt-5" > Proceed to Payment</Link>
         </div>
       </div>
     </div>

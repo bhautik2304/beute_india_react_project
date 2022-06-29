@@ -8,14 +8,14 @@ import { useHistory } from "react-router-dom";
     <div className="container-fluid footsection ">
     <div className="main-footer-section">
       <div className="row  pt-5 pb-5 ">
-        <div className="col-lg-6">
+        <div className="col-lg-6 col-md-5">
         <div className='footer-logo-section mt-3'>
         <img src={process.env.PUBLIC_URL+"pictures/beaute-india-footer.png"} alt="" />
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna </p>
         </div>
 
         </div>
-        <div className="col-lg-4">
+        <div className="col-lg-4 col-md-4">
         <div className="footdata">
             <ul>
               <li>
@@ -49,7 +49,7 @@ import { useHistory } from "react-router-dom";
       </div>
           
         </div>
-        <div className="col-lg-2">
+        <div className="col-lg-2 col-md-3">
 
         
           <div className="footdata">
