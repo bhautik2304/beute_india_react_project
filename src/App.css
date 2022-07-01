@@ -78,9 +78,14 @@ h6 {
 	width: 80%;
 }
 
+.sidebar-color{
+	background-color: #000;
+}
 
-
-
+.side-content{
+	text-decoration: none;
+	color: #fff !important;
+}
 
 
 /* Search */
@@ -144,7 +149,9 @@ h6 {
 	font-size: 20px;
 }
 
-
+.search-head{
+	display: none;
+}
 
 .hamburger div {
 	width: 18px;
@@ -157,7 +164,9 @@ h6 {
 	display: none;
 }
 
-
+.hamburgers {
+	display: none;
+}
 
 @media screen and (max-width:992px) {
 
@@ -167,6 +176,10 @@ h6 {
 		height: 40px;
 	}
 
+
+	.hamburgers {
+		display: block;
+	}
 	.search_wrap {
 		width: 330px;
 		margin: 30px auto;
@@ -194,7 +207,7 @@ h6 {
 	}
 
 	.logoo {
-		width: 100%;
+		width: 90%;
 		margin: 20px 0;
 	}
 
@@ -214,13 +227,20 @@ h6 {
 	}
 
 	.hamburger {
-
 		display: block;
 		position: absolute;
-		top: 30px;
+		top: 35px;
 		right: 20px;
 		cursor: pointer;
 
+	}
+
+	.search-head{
+		display: block;
+		position: absolute;
+		top: 30px;
+		right: 50px;
+		cursor: pointer;
 	}
 
 	.open {
