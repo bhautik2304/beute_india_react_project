@@ -46,6 +46,189 @@ class Allproduct extends Component {
     </div>
     <div className="container-fluid">
       <div className="row">
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+  {/* <div className="col-lg-2 col-md-3 sidebar-contect" id=""> */}
+        <div className="scroll-div-side">
+          <div className="category-filter ">
+          <ul className="nav flex-column">  
+            <li>
+              <a ><img src={process.env.PUBLIC_URL+"pictures/arrow-down.svg"} alt="" />&nbsp;
+              <u className="cathead">Catogories</u></a>
+            </li>
+            <li className='mt-3 ps-3 cat-filt'>
+              <a href="#">Fragnance</a>
+            </li>
+            <li className='mt-3 ps-3 cat-filt'>
+              <a href="#">Skin Care & Beauty</a>
+            </li>
+            <li className='mt-3 ps-3 cat-filt'>
+              <a href="#">Accessories</a>
+            </li>
+            <li className='mt-3 ps-3 cat-filt'>
+              <a href="#">Home Fragrance </a>
+            </li>
+            <li className='mt-3 ps-3 cat-filt' >
+              <a href="#">Apparels </a>
+            </li>
+          </ul>
+        </div>
+        <div className="brands-filter">
+          <ul className="nav flex-column">  
+            <li className='mb-3' >
+              <a><img src={process.env.PUBLIC_URL+"pictures/arrow-down.svg"} alt="" />&nbsp;<u className="cathead">Brands</u></a>
+            </li>
+           
+              <div className="scroll-div">
+                  <ul className="list-group">
+                    <li className="list-group-item">
+                      <input className="form-check-input me-1" type="checkbox" value="" aria-label="..."/>
+                      4711
+                    </li>
+                    <li className="list-group-item">
+                      <input className="form-check-input me-1" type="checkbox" value="" aria-label="..."/>
+                      Alyssa 
+                    </li>
+                    <li className="list-group-item">
+                      <input className="form-check-input me-1" type="checkbox" value="" aria-label="..."/>
+                      Ashley
+                    </li>
+                    <li className="list-group-item">
+                      <input className="form-check-input me-1" type="checkbox" value="" aria-label="..."/>
+                      Aramis
+                    </li>
+                    <li className="list-group-item">
+                      <input className="form-check-input me-1" type="checkbox" value="" aria-label="..."/>
+                      Aspen
+                    </li>
+                    <li className="list-group-item">
+                      <input className="form-check-input me-1" type="checkbox" value="" aria-label="..."/>
+                      Bahama
+                    </li>
+                    <li className="list-group-item">
+                      <input className="form-check-input me-1" type="checkbox" value="" aria-label="..."/>
+                      Baomi 
+                    </li>
+                    <li className="list-group-item">
+                      <input className="form-check-input me-1" type="checkbox" value="" aria-label="..."/>
+                      Bentley
+                    </li>
+                    <li className="list-group-item">
+                      <input className="form-check-input me-1" type="checkbox" value="" aria-label="..."/>
+                      Betty
+                    </li>
+                    <li className="list-group-item">
+                      <input className="form-check-input me-1" type="checkbox" value="" aria-label="..."/>
+                      Barclay
+                    </li>
+                  </ul>
+            </div>
+        
+          </ul>
+        </div>
+       
+        <div className="price-filter">
+          <ul className="nav flex-column">  
+            <li className='mb-3' >
+              <a><img src={process.env.PUBLIC_URL+"pictures/arrow-down.svg"} alt="" />&nbsp;<u className="cathead">Price</u></a>
+            </li>
+            <div className="scroll-div">
+            <ul className="list-group">
+              <li className="list-group-item">
+                <input className="form-check-input me-1" type="checkbox" value="" aria-label="..."/>
+                Rs. 0-499
+              </li>
+              <li className="list-group-item">
+                <input className="form-check-input me-1" type="checkbox" value="" aria-label="..."/>
+                Rs. 500-999
+              </li>
+              <li className="list-group-item">
+                <input className="form-check-input me-1" type="checkbox" value="" aria-label="..."/>
+                Rs. 1000-1999
+              </li>
+              <li className="list-group-item">
+                <input className="form-check-input me-1" type="checkbox" value="" aria-label="..."/>
+                Rs. 2000-3999
+              </li>
+              <li className="list-group-item">
+                <input className="form-check-input me-1" type="checkbox" value="" aria-label="..."/>
+                Rs. 4000-10000
+              </li>
+              <li className="list-group-item">
+                <input className="form-check-input me-1" type="checkbox" value="" aria-label="..."/>
+                Rs. 10000-15000
+              </li>
+              <li className="list-group-item">
+                <input className="form-check-input me-1" type="checkbox" value="" aria-label="..."/>
+                Rs. 15000-20000
+              </li>
+              <li className="list-group-item">
+                <input className="form-check-input me-1" type="checkbox" value="" aria-label="..."/>
+                Rs. 20000 & above
+              </li>
+            </ul>
+          </div>
+          </ul>
+        </div>
+        <div className="size-filter mb-5">
+          <ul className="nav flex-column">  
+            <li className='mb-3' >
+              <a><img src={process.env.PUBLIC_URL+"pictures/arrow-down.svg"} alt="" />&nbsp;<u className="cathead">Size</u></a>
+            </li>
+            <div className="scroll-div">
+            <ul className="list-group">
+              <li className="list-group-item">
+                <input className="form-check-input me-1" type="checkbox" value="" aria-label="..."/>
+                4711
+              </li>
+              <li className="list-group-item">
+                <input className="form-check-input me-1" type="checkbox" value="" aria-label="..."/>
+                Alyssa 
+              </li>
+              <li className="list-group-item">
+                <input className="form-check-input me-1" type="checkbox" value="" aria-label="..."/>
+                Ashley
+              </li>
+              <li className="list-group-item">
+                <input className="form-check-input me-1" type="checkbox" value="" aria-label="..."/>
+                Aramis
+              </li>
+              <li className="list-group-item">
+                <input className="form-check-input me-1" type="checkbox" value="" aria-label="..."/>
+                Aspen
+              </li>
+              <li className="list-group-item">
+                <input className="form-check-input me-1" type="checkbox" value="" aria-label="..."/>
+                Bahama
+              </li>
+              <li className="list-group-item">
+                <input className="form-check-input me-1" type="checkbox" value="" aria-label="..."/>
+                Baomi 
+              </li>
+              <li className="list-group-item">
+                <input className="form-check-input me-1" type="checkbox" value="" aria-label="..."/>
+                Bentley
+              </li>
+              <li className="list-group-item">
+                <input className="form-check-input me-1" type="checkbox" value="" aria-label="..."/>
+                Betty
+              </li>
+              <li className="list-group-item">
+                <input className="form-check-input me-1" type="checkbox" value="" aria-label="..."/>
+                Barclay
+              </li>
+            </ul>
+            </div>
+          </ul>
+        </div>
+        </div>
+  {/* </div> */}
+  </div>
+      </div>
         <div className="col-lg-2 col-md-3 sidebar-contect" id="side">
         <div className="scroll-div-side">
           <div className="category-filter ">
@@ -243,7 +426,7 @@ class Allproduct extends Component {
                   <option value="2">Low</option>
                   <option value="3">High</option>
                 </select></div>
-                <div className="box4 " ><p><span onclick="openside()"><img src="/pictures/filter.png" width="10%" alt=""/>&nbsp;&nbsp;Filter</span></p></div>
+                <div className="box4 " ><p><span onclick="openside()" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><img src="/pictures/filter.png" width="10%" alt=""/>&nbsp;&nbsp;Filter</span></p></div>
             </div>
 
                 
